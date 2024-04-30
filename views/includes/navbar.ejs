@@ -1,0 +1,51 @@
+<style>
+  .btn-search{
+    background-color: #fe424d !important;
+    color: white !important;
+    border-radius: 25px;
+    padding: 0 1rem;
+  }
+  .btn-search:hover{
+    background-color: #fe424d !important;
+    color: white !important;
+  }
+  .btn-search i {
+    display: inline !important;
+    margin-right: 0.5rem;
+  }
+  .search-input  {
+    border-radius: 25px;
+    padding: 0.5rem 3rem;
+  }
+</style>
+
+<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top px-4">
+    <div class="container-fluid" style="background-color: white;">
+      
+      <a class="navbar-brand d-flex align-items-center justify-content-center" href="/listings">
+        <img src="../images/airbnbLogo.png" alt="airbnb-logo" height="38" width="56">
+        <span class="h3" style="color: #ff385c"><b>airbnb</b></span>
+      </a>
+      
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="/listings/new">Airbnb your home</a>
+          <% if(!currUser){ %>
+            <a class="nav-link" href="/signup"><b>Sign up</b></a>
+          <a class="nav-link" href="/login"><b>Log in</b></a>
+          <% } %>
+          <% if(currUser){ %>
+            <a class="nav-link" href="/logout"><b>Log out</b></a>
+          <% } %>
+        </div>
+             
+      </div>
+
+    </div>
+  </nav>
