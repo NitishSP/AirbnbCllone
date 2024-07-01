@@ -81,9 +81,8 @@ I developed a full-stack Airbnb clone with CRUD operations, user authentication,
 
 ## Run Locally
 
-Clone the project
-
 ```bash
+Clone the project
 git clone https://github.com/Shashi-Srivastav/Namaste-Yatra.git
 
 Go to the project directory
@@ -94,3 +93,8 @@ npm install
 
 Start the server
 node app.js
+```
+
+## Links
+**Linkedin:** https://www.linkedin.com/in/nitish-singh-650408265/
+**Project Link:** https://airbnbclone-f3d9.onrender.com/listings/new
