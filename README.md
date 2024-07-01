@@ -96,5 +96,5 @@ node app.js
 ```
 
 ## Links
-**Linkedin:** https://www.linkedin.com/in/nitish-singh-650408265/
-**Project Link:** https://airbnbclone-f3d9.onrender.com/listings/new
+- **Linkedin:** https://www.linkedin.com/in/nitish-singh-650408265/
+- **Project Link:** https://airbnbclone-f3d9.onrender.com/listings/
