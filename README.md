@@ -1,5 +1,5 @@
-# Namaste Yatra
-Developed a full-stack Airbnb clone with CRUD operations, user authentication, and data validation, integrating MapBox for location services and Cloudinary for image management.
+# WelcomeHome
+I developed a full-stack Airbnb clone with CRUD operations, user authentication, and data validation, integrating MapBox for location services and Cloudinary for image management.
 
 ## Authors
 - [Nitish Singh](https://github.com/NitishSP)
@@ -18,60 +18,49 @@ Developed a full-stack Airbnb clone with CRUD operations, user authentication, a
 
 ## Features
 
-### Namaste Yatra: Key Features
+### WelcomeHome: Key Features
 
-#### User Authentication and Security:
+#### Authentication and Security:
 
 - **Passport Integration:** Secure sign-up and login.
-- **Express Sessions:** Persistent user sessions in MongoDB Atlas.
+- **Express Sessions:** Sessions in MongoDB Atlas.
 
-#### Dynamic Listing Creation:
+#### Dynamic Listing:
 
-- **Cloudinary Image Uploads:** Supports PNG, JPEG, JPG up to 5MB.
-- **Joi Validation Framework:** Adds integrity during listing creation.
+- **Cloudinary Image Uploads** 
+- **Joi Validation Framework**
 
-#### Interactive Maps and Geolocation:
+#### Maps and Geolocation:
 
-- **Mapbox Integration:** Interactive maps with zoom and full browser feature.
+- **Mapbox Integration:** Maps with zoom feature.
 - **Geocoding:** Convert text locations to coordinates.
 
-#### Comprehensive Listing Details:
+#### Listing Details:
 
 - **Detailed Information:** Displays name, location, price, and user reviews.
 - **Map Integration:** Embedded Mapbox maps for each listing.
 
-#### User Reviews and Community Interaction:
+#### User Reviews:
 
 - **Review System:** Users can leave detailed reviews.
-- **Map-Extended Reviews:** Reviews include geolocation of each.
 
 #### Responsive Design:
 
-- **Bootstrap Framework:** Consistent UI across desktop, tablets, and mobiles.
+- **Bootstrap Framework:** Consistent UI across desktops, tablets, and mobiles.
 
 #### Scalable Data Management:
 
-- **Mongoose and MongoDB:** Flexible and scalable data storage.
-- **MongoDB Atlas:** Reliable cloud-based storage.
+- **Mongoose and MongoDB** 
+- **MongoDB Atlas**
 
-#### Robust Back-End Architecture:
+#### Back-End Architecture:
 
-- **Express.js Framework:** Efficient server-side structure.
-- **MVC Pattern:** Organized and scalable codebase.
-
-#### Enhanced User Experience:
-
-- **Interactive Elements:** Zoomable and full-screen options.
-- **Performance Optimization:** Quick load times and smooth rendering.
+- **Express.js Framework**
+- **MVC Pattern**
 
 #### Secure and Efficient Middleware:
 
 - **Express Middleware:** Manages request processing and authentication.
-
-#### Scalable Cloud Integration:
-
-- **Cloudinary for Image Management:** Efficient remote media handling.
-- **MongoDB Atlas for Data Storage:** Reliable and scalable solution.
 
 ## Environment Variables
 
