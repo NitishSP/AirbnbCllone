@@ -71,11 +71,12 @@ I developed a full-stack Airbnb clone with CRUD operations, user authentication,
 - `SECRET`
 
 ## Screenshots
-
-
-
-## Mobile View
-
+![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/954d32e1-e194-4341-84d5-feeedaa516dc)
+![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/1d984a19-ed7a-4fc9-9846-cb73867a1cc6)
+![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/0e7d4826-342e-4ba4-974d-6e683bc5bc6b)
+![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/daab736d-ea9e-4e67-83b1-96dd0c0d786d)
+![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/523d34b8-0725-45ba-bf4d-50c05e3bb664)
+![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/8b6a195e-3a28-42a7-ac32-cc524fc140e4)
 
 
 ## Run Locally
@@ -93,4 +94,3 @@ npm install
 
 Start the server
 node app.js
-
