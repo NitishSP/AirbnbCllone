@@ -14,11 +14,11 @@ module.exports.signup = async(req, res) => {
             if(err) {
                 return next(err);
             }
-            req.flash("success", "Welcome to Wanderlust");
+            req.flash("success", "Welcome to WelcomeHome");
             return res.redirect("/listings")
         });
         // console.log(registeredUser)
-        // req.flash("success", "Welcome to Wanderlust");
+        // req.flash("success", "Welcome to WelcomeHome");
         // res.redirect("/listings")
     }
     catch(e) {
@@ -32,7 +32,7 @@ module.exports.renderLoginForm = (req, res) => {
 };
 
 module.exports.login = async(req, res) => {
-    req.flash("success", "welcomeback to wanderlust");
+    req.flash("success", "welcomeback to WelcomeHome");
     let redirectUrl = res.locals.redirectUrl || "/listings"; // ye agar samajh nahi aa raha hai to module: 57 --> video no. 5 dekho
     res.redirect(redirectUrl);
 }
