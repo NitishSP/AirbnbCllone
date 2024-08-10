@@ -1,4 +1,10 @@
 <% layout("/layouts/boilerplate") %>
+<style>
+    .listingEditBtn{
+        background-color: #e35901 !important;
+      }
+</style>
+
 <script>
     const mapToken = "<%= process.env.MAP_TOKEN %>";
     const listing = <%- JSON.stringify(listing) %>;
@@ -21,7 +27,7 @@
     <br>
     <% if(currUser && currUser._id.equals(listing.owner._id)){ %>
         <div class="btns">
-            <a href="/listings/<%= listing._id %>/edit" class="btn offset-2 edit-btn">Edit</a>
+            <a href="/listings/<%= listing._id %>/edit" class="btn offset-2 edit-btn listingEditBtn">Edit</a>
             <form method="POST" action="/listings/<%=listing._id%>?_method=DELETE">
                 <button class="btn btn-dark offset-5">Delete</button>
             </form>
