@@ -1,5 +1,5 @@
-# WelcomeHome
-I developed a full-stack Airbnb clone with CRUD operations, user authentication, and data validation, integrating MapBox for location services and Cloudinary for image management.
+# TravelNest Solutions
+I developed a full-stack web application inspired by Airbnb with CRUD operations, user authentication, and data validation, integrating MapBox for location services and Cloudinary for image management.
 
 ## Authors
 - [Nitish Singh](https://github.com/NitishSP)
@@ -18,7 +18,7 @@ I developed a full-stack Airbnb clone with CRUD operations, user authentication,
 
 ## Features
 
-### WelcomeHome: Key Features
+###  TravelNest Solutions: Key Features
 
 #### Authentication and Security:
 
