@@ -71,12 +71,12 @@ I developed a full-stack web application inspired by Airbnb with CRUD operations
 - `SECRET`
 
 ## Screenshots
-![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/954d32e1-e194-4341-84d5-feeedaa516dc)
-![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/1d984a19-ed7a-4fc9-9846-cb73867a1cc6)
-![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/0e7d4826-342e-4ba4-974d-6e683bc5bc6b)
-![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/daab736d-ea9e-4e67-83b1-96dd0c0d786d)
-![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/523d34b8-0725-45ba-bf4d-50c05e3bb664)
-![image](https://github.com/NitishSP/AirbnbClone/assets/130090010/8b6a195e-3a28-42a7-ac32-cc524fc140e4)
+![image](https://github.com/user-attachments/assets/b39a59b7-8e30-4939-922c-913802ab802e)
+![image](https://github.com/user-attachments/assets/c5b0527a-2425-450f-85ae-01f73a97dc5a)
+![image](https://github.com/user-attachments/assets/8ebe8a17-09f0-4965-bfad-09fae300da60)
+![image](https://github.com/user-attachments/assets/a45023ed-b060-492d-b020-0429d31305b7)
+![image](https://github.com/user-attachments/assets/8b21329f-0744-4005-a609-c941448b7aa6)
+
 
 
 ## Run Locally
@@ -97,4 +97,4 @@ node app.js
 
 ## Links
 - **Linkedin:** https://www.linkedin.com/in/nitish-singh-650408265/
-- **Project Link:** https://airbnbclone-f3d9.onrender.com/listings/
+- **Project Link:** https://airbnbclone-f3d9.onrender.com/listings
